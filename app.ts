@@ -8,3 +8,12 @@ userInput = 'Ethan';
 if(typeof userInput === "string"){
     userName = userInput
 }
+
+// never type never returns anything good for error messages since it crashes runtime
+function generateError(message: string, code: number): never{
+    throw {message: message, errorCode: code};
+}
+
+const result = generateError('An Error Occurred', 500);
+
+console.log(result)
