@@ -1,9 +1,5 @@
-function add(n1: number, n2: number){
-    return n1 + n2
-}
+let userInput: unknown;
 
-function printResult(num: number){
-    console.log('Result:' + num)
-}
-
-printResult(add(4,4));
+// you can use any type 
+userInput = 5
+userInput = 'Ethan'
