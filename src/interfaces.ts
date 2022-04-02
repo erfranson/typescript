@@ -11,7 +11,7 @@ let add: AddFn;
 
 add = (n1: number, n2: number) => n1 + n2;
 
-console.log(add(3,5))
+console.log(add(3,7))
 
 interface Named {
     readonly name?: string;
@@ -47,3 +47,5 @@ let user1: Greetable;
 
 user1 = new Person('Bill');
 user1.greet('What up')
+
+export {};
