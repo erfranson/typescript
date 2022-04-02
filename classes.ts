@@ -1,10 +1,10 @@
 // Code goes here!
-const userName = 'Ethan';
+// const userName = 'Ethan';
 
-let age = 30
+// let age = 30
 
-age = 29;
-var result;
+// age = 29;
+// var result;
 
 // function add(a: number, b: number) {
 //     result = a + b;
@@ -164,4 +164,4 @@ console.log(accounting.getRecentReport)
 console.log(employee1)
 it.describe()
 
-
+export{};
