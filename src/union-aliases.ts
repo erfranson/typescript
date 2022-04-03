@@ -34,3 +34,5 @@ console.log(combineStringAges);
 
 const combineNames = combine('Ethan', 'Tavia', 'as-string');
 console.log(combineNames)
+
+export {};
